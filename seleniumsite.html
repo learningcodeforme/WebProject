@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selenium QA Questions</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selenium QA Questions</h1>
+        <p>Your go-to resource for all things Selenium testing!</p>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Basic Questions</h3>
+                <ul>
+                    <li><a href="#q1">What is Selenium?</a></li>
+                    <li><a href="#q2">What are the types of locators in Selenium?</a></li>
+                    <li><a href="#q3">What is WebDriver in Selenium?</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Advanced Questions</h3>
+                <ul>
+                    <li><a href="#q4">How to handle dynamic elements in Selenium?</a></li>
+                    <li><a href="#q5">What is the difference between `findElement()` and `findElements()`?</a></li>
+                    <li><a href="#q6">How to implement Selenium Grid?</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Troubleshooting</h3>
+                <ul>
+                    <li><a href="#q7">How do you handle stale elements in Selenium?</a></li>
+                    <li><a href="#q8">How to handle timeouts in Selenium?</a></li>
+                    <li><a href="#q9">What to do if WebDriver is not responding?</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="qa-questions">
+            <h2 id="q1">1. What is Selenium?</h2>
+            <p>Selenium is an open-source tool for automating web browsers. It supports various programming languages like Java, Python, C#, etc.</p>
+
+            <h2 id="q2">2. What are the types of locators in Selenium?</h2>
+            <p>Selenium offers several types of locators to identify elements on a webpage, including ID, Name, ClassName, XPath, CSS Selector, LinkText, and PartialLinkText.</p>
+
+            <h2 id="q3">3. What is WebDriver in Selenium?</h2>
+            <p>WebDriver is an interface in Selenium used to control a browser's actions by interacting with it at a more detailed level than the older Selenium RC.</p>
+
+            <h2 id="q4">4. How to handle dynamic elements in Selenium?</h2>
+            <p>Dynamic elements can be handled using waits (Explicit, Implicit) and strategies like XPath with contains() or dynamic CSS selectors.</p>
+
+            <h2 id="q5">5. What is the difference between `findElement()` and `findElements()`?</h2>
+            <p>findElement() returns a single web element, while findElements() returns a list of elements matching a specific condition.</p>
+
+            <h2 id="q6">6. How to implement Selenium Grid?</h2>
+            <p>Selenium Grid allows you to run tests on multiple machines and browsers simultaneously. You need to set up a Hub and Nodes to distribute tests.</p>
+
+            <h2 id="q7">7. How do you handle stale elements in Selenium?</h2>
+            <p>To handle stale elements, we can use try-catch blocks and re-locate the element using WebDriver.</p>
+
+            <h2 id="q8">8. How to handle timeouts in Selenium?</h2>
+            <p>Timeouts in Selenium can be managed using Implicit Waits, Explicit Waits, and Fluent Waits to avoid synchronization issues.</p>
+
+            <h2 id="q9">9. What to do if WebDriver is not responding?</h2>
+            <p>If WebDriver is not responding, check for unhandled exceptions, verify browser compatibility, or consider using browser logs to debug the issue.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nitesh Selenium QA Questions. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
